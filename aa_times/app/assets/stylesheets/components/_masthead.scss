@@ -19,10 +19,6 @@
   flex-direction: row;
 }
 
-.languages:hover {
-  text-decoration: underline;
-}
-
 .language-nav a {
 	margin: 0 5px;
 	text-transform: uppercase;
@@ -90,4 +86,12 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.language-nav a:hover {
+  text-decoration: underline;
+}
+
+.language-nav li:first-of-type {
+  font-weight: bold;
 }

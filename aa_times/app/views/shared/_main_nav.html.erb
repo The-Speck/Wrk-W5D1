@@ -15,19 +15,11 @@
 		<ul>
 			<li>
         <button type="button">SUBSCRIBE NOW</button>
-        <!-- <form class="right-nav-button" action="" method="post">
-          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-          <input type="submit" value="Subscribe Now">
-        </form> -->
 			</li>
 			<li>
         <button type="button">LOG IN</button>
-        <!-- <form class="right-nav-button" action="" method="post">
-          <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-          <input type="submit" value="Log In">
-        </form> -->
 			</li>
-      <li><a href="#"><i class="fas fa-cog"></i></a></li>
+      <li id="gear-dropdown-btn" ><i class="fas fa-cog"><%= render partial: 'shared/gear_dropdown' %></i></li>
 		</ul>
 	</nav>
 </header>
