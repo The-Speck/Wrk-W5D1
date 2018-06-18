@@ -1,0 +1,19 @@
+.sections-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sections-nav {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.sections {
+  border-bottom: 1px solid lightgrey;
+  padding: 5px 0;
+}
+
+.section_link:hover {
+  text-decoration: underline;
+  background: #e2e2e2;
+}
