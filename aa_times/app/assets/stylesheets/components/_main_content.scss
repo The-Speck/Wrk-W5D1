@@ -1,0 +1,47 @@
+.col-1-4 {
+  width: 25%;
+  // float: left;
+}
+
+.col-1-2 {
+  width: 50%;
+  // float: left;
+}
+
+.col-1-8 {
+  width: 12.5%;
+  // float: left;
+}
+
+.main-body {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+h1 {
+  font-family: georgia;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h2{
+  color: grey;
+}
+
+.main_story > li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: disc outside;
+  padding-left: 20px;
+  position: relative;
+}
+
+.main_story {
+  content: '';
+  display: block;
+  clear: both;
+  position: relative;
+}
